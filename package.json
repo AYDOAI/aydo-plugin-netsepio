@@ -1,0 +1,26 @@
+{
+  "name": "aydo-plugin-netsepio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AYDOAI/aydo-plugin-netsepio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AYDOAI/aydo-plugin-netsepio/issues"
+  },
+  "homepage": "https://github.com/AYDOAI/aydo-plugin-netsepio#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  }
+}
